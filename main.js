@@ -1,4 +1,5 @@
 import { initExperience } from './experience.js';
+import { initHeroHolograms } from './hero-holograms.js';
 
 const layers = [
   { title:'Comfort is the starting point.', copy:'A contact-lens surface designed around fit, oxygen transmission and a stable optical position. The goal is less bulk on the face—not an assumption that every eye will find it comfortable.', proof:'Demonstrate safe wear, reliable fit and sustained comfort with qualified clinical partners.' },
@@ -65,6 +66,7 @@ import('./lens-scene.js').then(({ createLensScene }) => {
 }).catch(error => console.warn('Using the static lens preview.', error));
 
 initExperience($('#experience-demo'));
+initHeroHolograms({visual:$('.hero-visual'),canvasContainer:$('#hero-lens'),hint:$('.hero-hint')});
 
 const menu = $('.menu-toggle');
 function closeMenu() { menu.setAttribute('aria-expanded','false'); menu.setAttribute('aria-label','Open navigation'); $('.header').classList.remove('menu-open'); }

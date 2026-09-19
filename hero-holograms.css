@@ -1,0 +1,40 @@
+.hero-holograms{position:absolute;inset:0;z-index:3;pointer-events:none;perspective:1100px;color:#163c59;isolation:isolate;contain:layout style}
+.hero-holograms *{box-sizing:border-box;pointer-events:none}
+.hh-connectors{position:absolute;inset:0;width:100%;height:100%;overflow:visible;opacity:0;transition:opacity .38s ease}
+.hh-connectors path{fill:none;stroke:#72b1d6;stroke-width:1.1;stroke-opacity:.57;stroke-dasharray:3 5}
+.hh-connectors circle{fill:#6db6dd;stroke:#e6f8ff;stroke-width:1.5}
+.hh-concept{position:absolute;left:50%;top:10.5%;transform:translate(-50%,5px);opacity:0;border:1px solid #96bbd13b;background:#f4fbff94;border-radius:20px;padding:5px 9px;font-size:7px;font-weight:600;letter-spacing:.16em;white-space:nowrap;color:#557f99;transition:opacity .3s ease,transform .45s ease}
+.hh-panel{position:absolute;width:172px;opacity:0;transform:translateY(11px) scale(.95) rotateY(8deg);transition:opacity .32s ease,transform .55s cubic-bezier(.2,.75,.2,1);will-change:transform,opacity}
+.hh-panel-inner{position:relative;padding:12px 13px 11px;border:1px solid #92c5df85;border-radius:13px;background:linear-gradient(135deg,#fafffff0,#eaf7ff9c 55%,#e1f2ff9c);box-shadow:0 9px 30px #47799b16,inset 0 1px 0 #ffffffed,inset 0 -1px 0 #cce8f346;backdrop-filter:blur(15px) saturate(1.12);-webkit-backdrop-filter:blur(15px) saturate(1.12);animation:hh-drift 7s ease-in-out infinite}
+.hh-panel-inner::before,.hh-panel-inner::after{content:"";position:absolute;width:11px;height:11px;border-color:#66b4dc99;border-style:solid;pointer-events:none}
+.hh-panel-inner::before{top:-2px;left:-2px;border-width:1px 0 0 1px;border-radius:7px 0 0 0}
+.hh-panel-inner::after{right:-2px;bottom:-2px;border-width:0 1px 1px 0;border-radius:0 0 7px 0}
+.hh-whatsapp{left:3%;top:22%;transform:translateY(12px) scale(.94) rotateY(12deg) rotateZ(-3deg)}
+.hh-instagram{right:1%;top:15.5%;width:160px;transform:translateY(12px) scale(.94) rotateY(-13deg) rotateZ(3deg)}
+.hh-ai{left:8%;bottom:19%;width:177px;transform:translateY(12px) scale(.94) rotateY(8deg) rotateZ(-2deg)}
+.hh-instagram .hh-panel-inner{animation-delay:-2s}.hh-ai .hh-panel-inner{animation-delay:-4s}
+.hh-app{display:flex;align-items:center;gap:6px;font-size:9px;font-weight:650;line-height:1.2;letter-spacing:.025em;color:#2d5a77;margin-bottom:10px}
+.hh-app-icon{display:grid;place-items:center;width:18px;height:18px;border:1px solid #7fb9d44f;border-radius:6px;background:#d4edfb70;color:#4287af}
+.hh-app-icon svg{width:13px;height:13px;stroke:currentColor;stroke-width:1.1;stroke-linecap:round;stroke-linejoin:round}
+.hh-status{width:4px;height:4px;background:#73b5d6;box-shadow:0 0 5px #85c8e59c;border-radius:50%;margin-left:auto}
+.hh-person{margin:0 0 5px;font-size:10px;font-weight:600;line-height:1.2}.hh-person span{font-size:8px;font-weight:400;color:#66889e}
+.hh-message{font-size:10px;line-height:1.55;letter-spacing:.004em;margin:0;color:#294c63}
+.hh-caption{font-size:8px;line-height:1.45;margin:6px 0 0;color:#698ba0}
+.hh-step{display:flex;align-items:center;gap:7px;font-size:10px;font-weight:550;line-height:1.4;margin:0;color:#294c63}.hh-step>span{color:#69a4c6;font-size:9px;font-variant-numeric:tabular-nums}
+.hh-progress{display:flex;gap:4px;margin-top:10px}.hh-progress i{height:2px;border-radius:3px;width:20px;background:#bfd9e77d}.hh-progress i:nth-child(-n+2){background:#80b9d8}
+.hh-ai-orb{width:17px;height:17px;border:2px solid #82c1e1;border-left-color:#bfdff0;border-radius:50%;box-shadow:0 0 8px #85c9ea36,inset 0 0 5px #c0e5f560}
+.hh-spark{margin-left:auto;font-size:11px;color:#6da8cb}
+.hero-holograms-open .hh-connectors{opacity:1;transition-delay:.15s}
+.hero-holograms-open .hh-concept{opacity:1;transform:translate(-50%,0);transition-delay:.05s}
+.hero-holograms-open .hh-whatsapp{opacity:1;transform:translateY(0) scale(1) rotateY(12deg) rotateZ(-3deg);transition-delay:.025s}
+.hero-holograms-open .hh-instagram{opacity:1;transform:translateY(0) scale(1) rotateY(-13deg) rotateZ(3deg);transition-delay:.11s}
+.hero-holograms-open .hh-ai{opacity:1;transform:translateY(0) scale(1) rotateY(8deg) rotateZ(-2deg);transition-delay:.19s}
+.hero-hint .hh-toggle{pointer-events:auto;flex:none;position:relative;z-index:4;display:inline-flex;align-items:center;justify-content:center;min-height:28px;padding:6px 10px;border:1px solid #94bad05c;border-radius:20px;background:#f7fcff9c;color:#49758f;font:inherit;font-size:8px;line-height:1.2;letter-spacing:.015em;cursor:pointer;box-shadow:0 2px 8px #335f7d08;transition:background .2s,border-color .2s}
+.hero-hint .hh-toggle:hover{background:#e9f5fc;border-color:#77aecd8a}.hero-hint .hh-toggle:focus-visible{outline:2px solid #72accf;outline-offset:3px}.hero-hint .hh-toggle[aria-pressed=true]{background:#e6f3fb;color:#286586;border-color:#72afcf87}
+@keyframes hh-drift{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+.motion-paused .hh-panel-inner{animation-play-state:paused}.motion-paused .hh-panel,.motion-paused .hh-concept,.motion-paused .hh-connectors{transition:none}
+@media(max-width:800px){.hh-panel{width:146px}.hh-panel-inner{padding:10px 11px}.hh-whatsapp{left:0;top:19%}.hh-instagram{right:0;top:25%;width:137px}.hh-ai{left:3%;bottom:24%;width:151px}.hh-concept{top:12%;font-size:6px;padding:4px 7px}.hh-app{font-size:8px;margin-bottom:8px}.hh-person{font-size:9px}.hh-message,.hh-step{font-size:9px}.hh-caption{font-size:7px}.hero-hint .hh-toggle{font-size:7px;padding:6px 8px;min-height:27px}}
+@media(max-width:520px){.hh-panel{width:133px}.hh-whatsapp{top:20%;left:1%}.hh-instagram{top:26%;right:1%;width:128px}.hh-ai{bottom:24%;left:3%;width:145px}.hh-panel-inner{padding:9px 10px;border-radius:11px}.hh-app{gap:5px;font-size:7.5px;margin-bottom:7px}.hh-app-icon{width:16px;height:16px}.hh-app-icon svg{width:12px;height:12px}.hh-person{font-size:8.5px}.hh-person span{font-size:7px}.hh-message,.hh-step{font-size:8.5px}.hh-caption{font-size:7px}.hh-progress{margin-top:7px}.hh-concept{left:47%;top:13%;font-size:5.5px}.hero-hint .hh-toggle{font-size:7px;min-height:27px;padding:6px 8px}}
+@media(prefers-reduced-motion:reduce){.hh-panel-inner{animation:none}.hh-panel,.hh-concept,.hh-connectors,.hero-hint .hh-toggle{transition:none!important}}
+@media(max-width:520px){.hero-visual .hero-hint{gap:7px;padding:8px 10px;max-width:calc(100% - 16px);width:max-content;flex-wrap:wrap;justify-content:center;font-size:7.5px}.hero-visual .hero-hint>span{font-size:14px}}
+@media(max-width:380px){.hero-visual .hero-hint{gap:6px;padding:8px;font-size:7px}.hero-hint .hh-toggle{padding:6px 7px;font-size:6.8px}}
