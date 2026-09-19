@@ -45,7 +45,7 @@ export const market = [
     limitation: 'Keep it on the desk or in an external companion prototype. This is a test instrument, not a lens assembly. Confirm distributor stock before purchase.', source: 'nordicdk',
   },
   {
-    category: 'commercial', tag: 'CATALOG POWER MANAGEMENT', title: 'Manage energy. Do not assume it appears.',
+    category: 'commercial', tag: 'CATALOG POWER MANAGEMENT', title: 'Low-power energy management for the bench.',
     specs: ['BQ25570 · 3.5 × 3.5 mm package', '488 nA typical quiescent current', '600 mV cold-start threshold', 'Operation down to 100 mV after startup'],
     body: 'TI’s IC helps condition energy from sources such as a photovoltaic cell and manage storage. Engineers can use it to investigate whether a measured source can support a measured load.',
     limitation: 'It is not a wireless receiver, generator or complete battery system. The very low idle figure is not the power draw of the display, radio or whole product. External components are required.', source: 'ti',
@@ -63,7 +63,7 @@ export const market = [
     limitation: 'The company announcement is a development claim, not a purchasable specification, manufacturing quote or independent clinical result. It explicitly distinguishes prototypes from commercial readiness.', source: 'xpanceo',
   },
   {
-    category: 'development', tag: 'COMPONENT PROTOTYPES', title: 'Separate breakthroughs still need integration.',
+    category: 'development', tag: 'COMPONENT PROTOTYPES', title: 'Component breakthroughs to build on.',
     specs: ['Display and close-eye optics', 'External computing/power companion', 'Microbattery and conductor prototypes', 'Integrated demonstration targeted for 2027'],
     body: 'XPANCEO’s June 2026 showcase describes several parts of a future system. Its display demonstration uses a holder brought close to the eye, alongside other component prototypes.',
     limitation: 'Do not present these demonstrations as an already-validated, all-day wearable. Integrating power, display, sensing and fit is a separate test; the planned 2027 milestone remains a company target.', source: 'xprototypes',
@@ -75,13 +75,13 @@ export const market = [
     limitation: 'A glasses prototype, not a demonstrated contact-lens display.', source: 'nature',
   },
   {
-    category: 'research', tag: 'FLEXIBLE MATERIALS RESEARCH', title: 'Transparent conductors are a research ingredient.',
+    category: 'research', tag: 'FLEXIBLE MATERIALS RESEARCH', title: 'Transparent electronics demonstrated on lenses.',
     specs: ['Nature Communications · 2017', 'Graphene and silver-nanowire electronics', 'Soft contact-lens sensor system', 'Ocular sensing, not an AR display'],
-    body: 'Researchers investigated flexible, transparent conducting materials in a contact-lens sensor. This supports studying better interconnects and sensors—not calling the entire system solved by nanotechnology.',
+    body: 'Researchers investigated flexible, transparent conducting materials in a contact-lens sensor. This provides a demonstrated materials direction for future interconnects and sensors.',
     limitation: 'A materials or sensing experiment does not establish a full visual interface, clinical authorization, human comfort over time or mass production.', source: 'nano',
   },
   {
-    category: 'research', tag: 'GAZE-TRACKING RESEARCH', title: 'Knowing where the eye points is one problem.',
+    category: 'research', tag: 'GAZE-TRACKING RESEARCH', title: 'Passive tags offer a route to gaze sensing.',
     specs: ['Nature Communications · 2024', 'Four passive frequency-encoded tags', 'External reader required', 'Eye-model and rabbit demonstrations'],
     body: 'The paper explores detecting eye movement using chip-free, battery-free tags in a lens. It is one possible research direction for input and alignment.',
     limitation: 'The experiment does not give the lens a view of the room. Head motion, world tracking, calibration, privacy and deliberate input still require a broader system. Human product performance is not established.', source: 'eye',

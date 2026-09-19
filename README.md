@@ -6,7 +6,7 @@ An independent student concept by Tamerlan Goglichidze, accompanying a YUCG pres
 
 ## Explore
 
-The separate [Engineering Lab](https://gtamerlan.github.io/meta-lens/technical.html) adds three 3D system modes, component explanations, adjustable power and raw-data-rate models, nanotechnology scale exploration, a dated component evidence ledger and an eight-phase professional development sequence. The original experience remains intact.
+The separate [Engineering Lab](https://gtamerlan.github.io/meta-lens/technical.html) adds three 3D system modes, component explanations, adjustable power and raw-data-rate models, nanotechnology scale exploration, a dated component evidence ledger and an eight-phase professional development sequence. A feasibility overview leads with reported worn prototypes, contact-specific optics and published nanoelectronics research, then explains the development work needed for a complete product. The original experience remains intact.
 
 - Interactive Three.js lens: hover to reveal, drag to rotate.
 - Holographic app panels on hero hover, with a keyboard/mobile Show interface toggle.
